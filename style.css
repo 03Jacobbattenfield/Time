@@ -1,0 +1,71 @@
+body{
+    height:1000px;
+    background-color:black;
+    background-image:linear-gradient(84deg,black, white);
+}
+#wrapper{
+    margin:0 auto; 
+    margin-top:100px;
+    background-color: white;
+    height:500px;
+    width:600px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+#title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#clock{
+    height:200px;
+    width:200px;
+    border-radius:1000px;
+    margin-left:200px;
+    margin-top:0px;
+}
+#cr{
+    background-color:Black;
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    color:white;
+}
+.button{
+    margin-left:40%;
+    font-size: larger;
+    width:100px;
+    height:25px;
+    border-radius: 15px;
+}
+.button:hover{
+    opacity:.87;
+}
+#year{
+    background-color: lightblue;
+}
+#month{
+    background-color: rgb(173, 230, 182);
+}
+#day{
+    background-color: rgb(88, 121, 182);
+}
+#hour{
+    background-color: rgb(230, 173, 227);
+}
+#minute{
+    background-color: rgb(230, 173, 176);
+}
+#second{
+    background-color: rgb(230, 205, 173);
+}
+#time-wrapper{
+    background-color: aliceblue;
+    width:400px;
+    height:200px;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 14px;
+}
+#clear{
+    background-color: brown;
+}
