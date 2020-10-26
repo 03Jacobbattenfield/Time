@@ -2,6 +2,7 @@ body{
     height:1000px;
     background-color:black;
     background-image:linear-gradient(84deg,black, white);
+    background-size:cover;
 }
 #wrapper{
     margin:0 auto; 
